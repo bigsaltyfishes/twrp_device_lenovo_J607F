@@ -1,5 +1,5 @@
-# Device Tree for Oneplus Nord CE 5G (ebba) for OrangeFox Recovery Project
-## Disclaimer - Unofficial OrangeFox!
+# Device Tree for Oneplus Nord CE 5G (ebba) for TeamWin Recovery Project
+## Disclaimer - Unofficial TWRP!
 These are personal test builds of mine. In no way do I hold responsibility if it/you messes up your device.
 Proceed at your own risk.
 
@@ -8,7 +8,7 @@ Setup repo tool from here https://source.android.com/setup/develop#installing-re
 
 ## Compile
 
-For build instructions go to OrangeFox Recovery wiki: https://wiki.orangefox.tech/en/dev/building
+For build instructions go to TWRP FAQ: https://twrp.me/FAQ/
 
 
 To test it:
@@ -31,3 +31,4 @@ Kernel: https://gitlab.com/opnordce/android_kernel_oneplus_sm7225
 - theincognito-inc for 8T tree
 - TWRP team
 - OrangeFox team
+- theincognito-inc
