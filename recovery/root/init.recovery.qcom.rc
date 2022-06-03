@@ -57,6 +57,16 @@ on init
     # checker programs.
     mkdir /dev/fscklogs 0770 root system
 
+on boot && property:ro.product.device=J607F
+    start load_ts_firmware
+
+service load_ts_firmware /vendor/firmware/load_ts_firmware.sh
+    user root
+    group root
+    disabled
+    oneshot
+    seclabel u:r:recovery:s0
+
 on boot
     setprop sys.usb.config adb
 
